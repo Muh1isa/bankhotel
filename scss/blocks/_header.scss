@@ -24,7 +24,10 @@
     }
     &__hero {
         &-top {
-            display: flex;
+            display: flex;  
+            // align-items: center;
+            justify-content: space-between;
+            height: 250px;
         }
         h1 {
             font-size: 140px;
@@ -37,6 +40,7 @@
             font-size: 18px;
             text-transform: uppercase;
             color: #FCD043;
+            margin: 20px 0 0 0;
         }
         &-btn {
             display: flex;
@@ -56,6 +60,57 @@
             width: 320px;
             font-size: 16px;
             line-height: 24px;
+        }
+        &-bottom {
+            position: relative;
+            height: 650px;
+            background-image: url(../../images/header\ image.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            width: 320px;
+            height: 140px;
+            background-color: #313F387A;
+            text-transform: uppercase;
+        }
+        .box {
+            position: absolute;
+            top: 52px;
+            right: 640px;
+            opacity: .9;
+        }
+        .box2 {
+            position: absolute;
+            top: 52px;
+            right: 320px;
+            opacity: .9;
+        }
+        .box3 {
+            position: absolute;
+            top: 52px;
+            right: 0; 
+            color: #1B3B36;
+            background-color: #FCD043;
+        }
+        &-vector {
+            transition: 2s ease;
+            cursor: pointer;
+        }
+        &-vector:hover {
+            transform: rotate(180deg);
+        }
+        &-vector2 {
+            transition: 2s ease;
+            transform: rotate(180deg);
+            cursor: pointer;
+        }
+        &-vector2:hover {
+            transform: rotate(0deg);
         }
     }
 }

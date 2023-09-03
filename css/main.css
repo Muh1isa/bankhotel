@@ -46,6 +46,8 @@ li {
 
 .header__hero-top {
   display: flex;
+  justify-content: space-between;
+  height: 250px;
 }
 
 .header__hero h1 {
@@ -61,6 +63,7 @@ li {
   font-size: 18px;
   text-transform: uppercase;
   color: #FCD043;
+  margin: 20px 0 0 0;
 }
 
 .header__hero-btn {
@@ -82,6 +85,66 @@ li {
   width: 320px;
   font-size: 16px;
   line-height: 24px;
+}
+
+.header__hero-bottom {
+  position: relative;
+  height: 650px;
+  background-image: url(../../images/header\ image.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header__hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 320px;
+  height: 140px;
+  background-color: rgba(49, 63, 56, 0.4784313725);
+  text-transform: uppercase;
+}
+
+.header__hero .box {
+  position: absolute;
+  top: 52px;
+  right: 640px;
+  opacity: 0.9;
+}
+
+.header__hero .box2 {
+  position: absolute;
+  top: 52px;
+  right: 320px;
+  opacity: 0.9;
+}
+
+.header__hero .box3 {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  color: #1B3B36;
+  background-color: #FCD043;
+}
+
+.header__hero-vector {
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.header__hero-vector:hover {
+  transform: rotate(180deg);
+}
+
+.header__hero-vector2 {
+  transition: 2s ease;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.header__hero-vector2:hover {
+  transform: rotate(0deg);
 } 
 
 /*# sourceMappingURL=main.css.map */
