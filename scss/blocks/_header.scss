@@ -2,11 +2,11 @@
     font-family: sans-serif;
     color: #FFFCF6;
     background-color: #313F38;
+    padding: 60px 0;
     &__nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 40px 0;
         &-title {
             font-size: 18px;
         }
@@ -74,7 +74,7 @@
             justify-content: center;
             gap: 100px;
             width: 320px;
-            height: 140px;
+            height: 130px;
             background-color: #313F387A;
             text-transform: uppercase;
         }
@@ -111,6 +111,25 @@
         }
         &-vector2:hover {
             transform: rotate(0deg);
+        }
+        &-extra {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100px;
+            &-number {
+                font-size: 22px;
+                text-transform: uppercase;
+                color: #FCD043;
+            }
+            &-text {
+                font-size: 22px;
+                text-transform: uppercase;
+                color: #FFFCF6;
+            }
+            &-text span {
+                font-style: italic;
+            }
         }
     }
 }

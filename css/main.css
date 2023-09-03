@@ -17,13 +17,13 @@ li {
   font-family: sans-serif;
   color: #FFFCF6;
   background-color: #313F38;
+  padding: 60px 0;
 }
 
 .header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0;
 }
 
 .header__nav-title {
@@ -101,7 +101,7 @@ li {
   justify-content: center;
   gap: 100px;
   width: 320px;
-  height: 140px;
+  height: 130px;
   background-color: rgba(49, 63, 56, 0.4784313725);
   text-transform: uppercase;
 }
@@ -145,6 +145,29 @@ li {
 
 .header__hero-vector2:hover {
   transform: rotate(0deg);
+}
+
+.header__hero-extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.header__hero-extra-number {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FCD043;
+}
+
+.header__hero-extra-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFCF6;
+}
+
+.header__hero-extra-text span {
+  font-style: italic;
 } 
 
 /*# sourceMappingURL=main.css.map */
