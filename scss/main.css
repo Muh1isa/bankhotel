@@ -318,6 +318,10 @@ li {
   justify-content: space-between;
   margin: 50px 0 0 0;
 }
+.section2__bottom-image {
+  height: 240px;
+  margin: 150px 0 250px 0;
+}
 .section2__bottom-btn {
   display: flex;
   align-items: center;
@@ -330,4 +334,30 @@ li {
   border: 1px solid #313F38;
   border-radius: 60px;
   gap: 10px;
+  opacity: 0.8;
+  margin: 150px 0 0 0;
+}
+.section2__bottom-title {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 260px 0 20px 0;
+}
+.section2__bottom-text {
+  width: 390px;
+  font-size: 16px;
+  color: #313F38;
+  line-height: 24px;
+  margin: 0 0 60px 0;
+}
+.section2__bottom a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #313F38;
+}
+.section2__bottom a span {
+  opacity: 0.4;
+}
+.section2__bottom-image2 {
+  margin: 60px 0 0 0;
 }/*# sourceMappingURL=main.css.map */
