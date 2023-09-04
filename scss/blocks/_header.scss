@@ -119,6 +119,9 @@
         &-vector2:hover {
             transform: rotate(0deg);
         }
+        &-btnimg {
+            display: none;
+        }
         &-extra {
             display: flex;
             align-items: center;
@@ -214,6 +217,83 @@
                 &-text, &-number {
                     font-size: 18px;
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .header {
+        padding: 50px 20px;
+        &__nav {
+            &-list, &-number {
+                display: none;
+            }
+            .fa-bars {
+                display: block;
+                font-size: 20px;
+            }
+            
+        }
+        &__hero {
+            &-top {
+                display: block;
+            }
+            h1 {
+                font-size: 76px;
+                margin: 15px 0 0 0;
+            }
+            &-text {
+                font-size: 11px;
+                text-align: center;
+                margin: 10px 0 0 0;
+            }
+            &-image {
+                display: none;
+            }
+            &-btn {
+                display: none;
+            }
+            &-container {
+                display: block;
+            }
+            &-text2 {
+                width: 240px;
+                font-size: 12px;
+                text-align: center;
+                margin: -70px 0 0 60px;
+            }
+            &-bottom {
+                position: relative;
+                width: 100%;
+                height: 400px;
+                &-img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &-box {
+                display: none;
+            }
+            &-btnimg {
+                position: absolute;
+                display: block;
+                bottom: 10px;
+                right: 10px;
+            }            
+            &-extra {
+                display: flex;
+                justify-content: left;
+                &-text, &-number {
+                    display: none;
+                }
+                .text {
+                    display: block;
+                    font-size: 16px;
+                    margin: 20px 0 0 0;
                 }
             }
         }
