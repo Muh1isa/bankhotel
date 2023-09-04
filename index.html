@@ -6,6 +6,8 @@
     <title>Bank Hotel</title>
     <!-- link css -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- favicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -20,6 +22,7 @@
                 <li class="header__nav-list-item">contacts</li>
             </ul>
             <h2 class="header__nav-number">+38 032 297 50 20</h2>
+            <i class="fa-solid fa-bars"></i>
         </nav>
         <div class="container header__hero">
             <div class="header__hero-top">
@@ -27,18 +30,19 @@
                     <h1>Bank<span>Hotel</span></h1>
                     <p class="header__hero-text">rooms // restaurant // congress hall // wine bar</p>
                 </div>
-                <div>
+                <div class="header__hero-container">
                     <div style="display: flex; gap: 200px; margin: 30px 0 70px 0;">
                         <button class="header__hero-btn">
                             <img src="./images/Star.svg" alt="image">
                             Since 1973
                         </button>
-                        <img src="./images/button - default.svg" alt="image" height="54">
+                        <img src="./images/button - default.svg" alt="image" height="54" class="header__hero-image">
                     </div>
                     <div class="header__hero-text2">The luxurious hotel in the most beautiful European city with an exclusive restaurant, conference-hall, and art-bar.</div>
                 </div>
             </div>
             <div class="header__hero-bottom">
+                <img src="./images/header image.png" alt="image" class="header__hero-bottom-img">
                 <div class="header__hero-box box">
                     check in
                     <img src="./images/Vector.svg" alt="image" class="header__hero-vector">
@@ -53,7 +57,7 @@
             </div>
             <div class="header__hero-extra">
                 <div>
-                    <a href="#" class="header__hero-extra-number">+38 032 297 50 20</a><br><br>
+                    <a href="#" class="header__hero-extra-number">+38 032 297 50 20</a><br>
                     <a href="#" class="header__hero-extra-text">8 Lystopadovoho Chynu,Lviv</a>
                 </div>
                 <a href="#" class="header__hero-extra-text" style="text-decoration: none;">Art & Congress <br><span>hall</span></a>
